@@ -1,25 +1,16 @@
-🌤️ RealTime Weather App — Full Stack (React + Spring Boot + MySQL):
+# React + Vite
 
-A real-time weather and forecast application using OpenWeather API, built with React (frontend) and Spring Boot + MySQL (backend).
-Includes JWT login/signup, user profile, and a simple admin dashboard for managing user data. Clean UI, fast APIs, and fully integrated full-stack workflow.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-✨ Features Overview:
-Real-Time Weather → live temperature, humidity, wind, conditions
-Forecast Module → multi-day weather insights
-JWT Authentication → secure login & signup
-User Dashboard → update profile, view weather data
-Admin Panel → view & manage users
-API Integration → OpenWeather + custom Spring Boot REST APIs
+Currently, two official plugins are available:
 
-🧱 Tech Stack:
-Frontend: React.js, Hooks, Components, Fetch/REST
-Backend: Spring Boot, JPA, Hibernate, JWT, REST APIs
-Database: MySQL
-External API: OpenWeather (Real-Time + Forecast)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-📌 How the App Works (Short Flow):
-User signs up / logs in → backend returns JWT
-React stores token & calls protected APIs
-Backend fetches real-time weather via OpenWeather
-Data shown in dashboard + forecast screens
-Admin can view/update user details
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
